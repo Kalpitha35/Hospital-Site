@@ -1,0 +1,983 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: "Wittgenstein", serif
+}
+.home-page{
+  
+    height: 100vh;
+    position: relative;
+    background-image: url("https://wallpapers.com/images/hd/doctor-with-globe-in-hand-hd-medical-dff7ahiwc5xsfjm0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    /* size: 100%; */
+    background-size: 100%;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    background-color: rgb(175, 222, 252);
+    width: 100%;
+    height: 4rem;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    /* font-weight: 00; */
+    color: rgb(11, 11, 11);
+    font-family: "Wittgenstein", serif;
+    font-size: 20px;
+
+}
+.links:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.icons{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+ .home{
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+.heading{
+  font-size: 100px;  
+}
+.head-color{
+    color: rgb(117, 5, 5);
+    font-weight: 600;
+}
+.head-para{
+    font-size: 30px;
+    text-align: center;
+}
+.appointment{
+    background-color: rgb(3, 3, 37);
+    color: white;
+    border-radius: 15px;
+    width: 180px;
+    height: 40px;
+}
+.dept{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.dept-icon{
+    height: 60px;
+    width: 60px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.our-dept{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.dept-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.dept-link{
+    text-decoration: none;
+    font-size: 15px ;
+    color: rgb(3, 3, 67);
+}
+.eye-care-det{
+    display: flex;
+    background-color: rgb(101, 190, 225);
+   margin-top: 50px;
+   height: 450px;
+}
+.details-img{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.details-para{
+    padding-top: 90px;
+    padding-left: 40px;
+    text-align: center;
+    color: white;
+}
+.details-p{
+    width:350px;
+    text-align: left;
+}
+.details-head{
+    font-weight: 600;
+    font-size: 30px;
+}
+.details-button{
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    margin-left: -400px;
+}
+.about-button{
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: -400px;
+
+}
+.about{
+    display: flex;
+    margin-top: 70px;
+}
+.about-imgs{
+    border-radius: 50%;
+    width:100%;
+}
+.about-img{
+   margin-top: 50px; 
+}
+.about-h2{
+    text-align: left;
+    margin-left: 50px;
+
+}
+.p-about{
+    width:500px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: left;
+
+}
+.our-doc{
+    text-align: center;
+    margin-top: 20px;
+}
+.our-doctors{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/023/740/386/non_2x/medicine-doctor-with-stethoscope-in-hand-on-hospital-background-medical-technology-healthcare-and-medical-concept-photo.jpg");
+   background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 30px;
+}
+.doctor-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.dr{
+    padding-left: -100px;
+    text-align: center;
+    margin-top: 40px;
+}
+.dr-view{
+    text-decoration: none;
+    background-color: rgb(5, 54, 107);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.dr-anchor{
+    text-decoration: none;
+    background-color: rgb(5, 54, 107);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.cake-grid{
+    width: 100%;
+    height: 100%;
+}
+
+.pick-flavour-grid{
+    
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
+    width: 40%;
+    height: 20%;
+    margin: 30px 50px;
+    /* border-radius: 10px; */
+}
+img.img1{
+    grid-row: span 3 / auto;
+    grid-column: span 3 / auto;
+}
+img.img2{
+    grid-column: span 1 / auto;
+    grid-row: span 2 / auto;
+
+}
+img.img3{
+    grid-column: span 3 / auto;
+
+}
+img.img4{
+    /* grid-row: span 3 / auto; */
+    grid-column: span 1 / auto;
+}
+img.img5{
+    grid-column: span 2/ auto;
+
+}
+img.img6{
+    grid-row: span 2/ auto;
+    grid-column: span 2/ auto;
+
+
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.pick-cake{
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-head{
+    text-align: left;
+    color: rgb(16, 61, 164);
+    margin-top: 35px;
+}
+.grid-para{
+    text-align: left;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+}
+.dr-grid-details{
+    width:450px;
+    height: 400px;
+    
+}
+.book-dr{
+    text-align: center;
+}
+.book-appointment{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(60, 126, 248);
+    height: 250px;
+    margin-top: 30px;
+}
+.p-name{
+    margin-top: 80px;
+    font-weight: 800;
+    color: white;
+}
+.book-input{
+    border: 2px solid rgb(134, 133, 133);
+    height: 40px;
+    border-radius: 5px;
+}
+.main-appointment{
+    background-color: rgb(60, 126, 248);
+    height: 300px;
+}
+.take-appointment{
+    text-decoration: none;
+    background-color: rgb(5, 54, 107);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: -50px;
+    margin-bottom: 30px; 
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(97, 102, 227);
+    height: 300px;
+    color: white;
+}
+
+.foot-head{
+    margin-left: 30px;
+    line-height: 1.5;
+    margin-top: 100px;
+    /* margin-top: -70px; */
+}
+.head-h1{
+    font-size: 40px;
+}
+.dept-footer{
+    margin-top: 100px;
+    line-height: 1.2;
+}
+.brands{
+    color: black;
+    padding: 20px 30px;
+   font-size: 30px;
+    /* margin-top: 250px; */
+    /* float: left; */
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(22, 126, 218);
+    border-radius: 10px;
+}
+#check{
+    display: none;
+}
+.home-page{
+    background-size: cover;
+}
+/* break points : based on width
+480px- sm, 768px- md, 992px- lg, 1280px -xl */
+
+
+
+@media (max-width: 992px) and (min-width: 768px){
+   
+    nav{
+        padding: 1rem 1%;
+
+    }
+    .home-page{
+        height:500px ;
+    }
+    .about-button{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .details-button{
+        margin-left: 20px;
+    }
+  .book-dr{
+    margin-top: 70px;
+  }
+  .main-container{
+    background-size: cover;
+    width: 100%;
+  }
+
+}
+@media (max-width:768px) and (min-width:576px) {
+   
+    nav{
+       width:100%;
+       height: 100px;
+
+    }
+    .logo{
+            width: 200px;
+            height: 200px;
+    }
+    .icons{
+        display: flex;
+    }
+    #cancel{
+        display: none;
+    }
+    #check:checked~.icons #menu{
+        display: none;
+    }
+    #check:checked~.contents ul{
+        display: block;
+        padding-top: 1rem;
+        height: 40rem;
+        
+       
+    }
+    #check:checked~.icons #cancel{
+        display: block;
+    }
+    .contents ul{
+      
+        position: absolute;
+        top: 100%;
+        right: 0;
+        display: block;
+        background: gainsboro;
+        /* opacity: 0.5; */
+        width: 40vh;
+        display: none;
+    }
+    .contents ul a{
+        display: block;
+        font-size: 1.8rem;
+        margin: 0.8rem 0; 
+         text-align: center;
+         color: rgb(4, 85, 135);
+    }
+    .home-page{
+  
+    width: 110vh;
+    height: 650px;
+    overflow: hidden;
+    /* background-size: 1000px;  */
+    }
+    .home{
+        padding-top: 140px;
+    }
+    
+    .heading{
+            margin-top: 10px;
+            font-size: 60px;  
+          
+}
+.appointment{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.head-para{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+/* body{
+    width: 100%;
+}*/
+
+.home-page{
+    width: 800px;
+    
+} 
+.main-container{
+    overflow: hidden;
+}
+.eye-care-det{
+    display: flex;
+    flex-direction: column;
+    height:110vh ;
+    text-align: left;
+    overflow: hidden;
+
+    }
+.details-img{
+     width: 100%; 
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.details-head{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+  margin-top: -320px;
+    margin-right: 40px;
+    margin-left: -30px; 
+}
+
+.details-para{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 0px;
+    /* margin-left: 160px; */
+   font-weight: 700;
+
+}
+.details-p{
+    text-align: center;
+    padding-left: 30px;
+    margin-top: 300px;
+}
+.details-button{
+   margin-left: 350px;
+   margin-top: -220px;
+}
+.our-dept{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+    
+.about-h2{
+    text-align: center;
+    font-size:0px ;
+}
+.p-about{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 160px;
+}
+.about{
+display: flex;
+flex-direction: column-reverse;
+}
+.about-button{
+    font-size: 20px;
+    background-color: rgb(37, 161, 238);
+    margin-left: 40px;
+    margin-top: -90px;
+
+}
+
+.dept{
+
+    margin-top: 20px;
+    font-size: 50px;
+}
+.about-imgs{
+    height: 400px;
+    width: 400px;
+    margin-top: 0px;
+}
+
+.dr{
+margin-top:10px;
+font-size: 15px;
+font-weight: 600;
+margin-bottom: 30px;
+padding-top: 10px;
+height: 350px;
+    width: 350px;
+   
+}
+.our-doctors{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 80vh; 
+    background-image: none;
+    background-color: rgb(21, 125, 244);
+}
+.doc-dept{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.dr-view{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(4, 85, 133);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+}
+.view-profile{
+    height: 50px;
+}
+.pick-cake{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dr-grid-details{
+    margin-left: 100px;
+}
+.grid-head{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    margin-top: -20px;
+}
+.dr-grid-details{
+    height: 800px;
+    width: 600px;
+    margin-top: 50px;
+}
+.grid-para{
+    /* height: 400px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.pick-flavour-grid{
+    margin-top: -400px;
+    margin-left: 170px;
+    padding-right: 190px;
+    width: 130vh;
+}
+.dr-anchor{
+    width: 200px;
+    height:60px ;
+    margin-top: 20px;
+    margin-left:0px ;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.grid-anchor{
+    margin-left:150px ;
+
+}
+.book-dr{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.book-appointment{
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.p-name{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: -500px;
+}
+.book-input{
+    height: 50px;
+    width: 300px;
+}
+.take-appointment{
+    text-decoration: none;
+    background-color: rgb(5, 54, 107);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    /* display: inline-block; */
+}
+ .take-div{
+    margin-top: -550px;
+    margin-left: -200px;
+} 
+select{
+    font-size: 20px;
+}
+.footer{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    /* width: 100%; */
+}
+.foot-head{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: -200px;
+}
+.footer-head{
+    font-size: 40px;
+}
+.dept-footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -400px;
+    color: rgb(207, 230, 252);
+}
+}
+
+@media (max-width:575px) and (min-width:360px) {
+    nav{
+        width:100%;
+        height: 100px;
+ 
+     }
+     .logo{
+             width: 200px;
+             height: 200px;
+     }
+     .icons{
+         display: flex;
+     }
+     #cancel{
+         display: none;
+     }
+     #check:checked~.icons #menu{
+         display: none;
+     }
+     #check:checked~.contents ul{
+         display: block;
+         padding-top: 1rem;
+         height: 40rem;
+         
+        
+     }
+     #check:checked~.icons #cancel{
+         display: block;
+     }
+     .contents ul{
+       
+         position: absolute;
+         top: 100%;
+         right: 0;
+         display: block;
+         background: gainsboro;
+         /* opacity: 0.5; */
+         width: 40vh;
+         display: none;
+     }
+     .contents ul a{
+         display: block;
+         font-size: 1.8rem;
+         margin: 0.8rem 0; 
+          text-align: center;
+          color: rgb(4, 85, 135);
+     }
+     .home-page{
+  
+        width: 193vh;
+        height: 650px;
+        overflow: hidden;
+       margin-right: -20px;
+        }
+        .home{
+            padding-top: 140px;
+        }
+        
+        .heading{
+                margin-top: 10px;
+                font-size: 90px;  
+              
+    }
+    .appointment{
+        width: 330px;
+        height: 60px;
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+    .head-para{
+        font-size: 35px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .our-dept{
+        width: 193vh;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+    .dept-div{
+        width: 193vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .dept-icon{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .dept-link{
+        font-size: 50px;
+        color: black;
+        font-weight: 600;
+    }
+    .parts{
+        margin-bottom: 80px;
+    }
+    .eye-care-det{
+        width: 193vh;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .details-img{
+        width: 850px;
+        height: 400px;
+
+    }
+    .details-head{
+        font-size: 50px;
+        color: rgb(3, 59, 101);
+    }
+    .details-p{
+        font-size: 40px;
+        width: 800px;
+        color: black;
+        text-align: center;
+        margin: 10px 40px;
+    }
+    .details-button{
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        color: rgb(5, 48, 80);
+        margin-left: 0px;
+    }
+    .d-about{
+        width: 900px;
+        text-align: center;
+       font-size: 50px;
+       margin-left: 50px;
+    }
+    .about{
+        width: 190vh;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1000px;
+    }
+    .about-img{
+        padding-top: 150px;
+    }
+    .about-imgs{
+        margin-top: 100px;
+        width: 500px;
+        height: 500px;
+        
+    }
+    .p-about{
+        font-size: 40px;
+        text-align: center;
+        width : 800px;
+    }
+   
+    .about-h2{
+        font-size: 60px;
+        text-align: center;
+    }
+    .about-button{
+        margin-bottom: 20px;
+    }
+
+    .our-doc{
+        font-size: 40px;
+        margin-left: 100px;
+    }
+    .our-doctors{
+        width: 190vh;
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+        background-color: rgb(51, 152, 247);
+        height: 130rem;
+    }
+    .dr{
+        margin-top: -50px;
+        font-size: 30px;
+    }
+    .dr2{
+        margin-top:-400px ;
+    }
+    .dr3{
+        margin-top:-100px ;
+
+    }
+    .d-img2{
+        height: 450px ;
+
+    } 
+    .pick-cake{
+        width: 190vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 150rem;
+    }
+    .pick-flavour-grid{
+        height: 600px;
+        width: 50rem;
+        margin-top: -800px;
+    }
+    .dr-grid-details{
+        margin-top: -800px;
+
+    }
+    .grid-head{
+        font-size: 80px;
+    }
+    .grid-para{
+        font-size: 40px;
+    }
+   .grid-anchor{
+        width: 200px;
+        height: 70px;
+        text-align: center;
+        font-size: 30px;
+   }
+   .book-dr{
+        width: 190vh;
+        text-align: center;
+        font-size: 50px;
+   }
+   .book-appointment{
+        height: 110rem;
+        width: 190vh;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        
+        
+   }
+   .p-name{
+        font-size: 50px;
+        margin-left: 10px;
+   }
+   .book-input{
+        width: 400px;
+        height: 100px;
+        font-size: 30px;
+   }
+   .take-appointment{
+        margin-top: -900px;
+        /* margin-left: 600px; */
+        font-size: 30px;
+   }
+   .take-div{
+    margin-top:-800px ;
+    height: 200px;
+    width: 190vh;
+    padding-top: 50px;
+
+
+   }
+    .footer{
+        margin-top: 1500px;
+        width: 190vh;
+        height: 100rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   } 
+ .dept-footer{
+    color: rgb(234, 229, 229);
+    font-size: 50px;
+   }
+   .footer-head{
+    font-size: 70px;
+   }
+   .foot-para{
+    font-size: 20px;
+   } 
+
+}
